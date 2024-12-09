@@ -1,0 +1,308 @@
+// text colors
+.text-clr-orange {
+    color: #d66637;
+}
+
+.plans-quantity {
+    color: #fd7e14;
+}
+
+.sub-headding-lg-clr {
+    color: #4b597c;
+}
+
+
+
+// font-family-used
+
+.top-content-i8 h2 {
+    font-family: "Nunito", Sans-serif;
+    font-size: 52px;
+    font-weight: 700 !important;
+}
+
+
+.Nunito-Sans {
+    font-family: "Nunito Sans", Sans-serif !important;
+}
+
+.sub-hedding-font {
+    /* // font-family: helvetica !important; */
+    font-family: "Nunito Sans", Sans-serif !important;
+    font-weight: 620;
+    color: #566477 !important;
+    /* // color: #838fa0 !important; */
+    /* //font-family: "Nunito Sans", sans-serif; */
+}
+
+
+
+// font-sizes
+
+.main-sub-hedding-font-size {
+    font-size: 1.5rem;
+}
+
+.heading-text-fw-700 {
+    font-weight: 800;
+}
+
+.text-fw-5 {
+    font-weight: 500;
+}
+
+
+
+
+// resposive-font-sizes
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .fonts {
+        font-size: 75%;
+    }
+
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    .fonts {
+        font-size: 120%;
+    }
+}
+
+// @media only screen and (min-width: 768px) {
+//     .card-pricing-latestsoftware {
+//         box-shadow: none;
+//     }
+// }
+@media (max-width: 1024px) {
+    .top-content-i8 {
+        margin-top: 1rem !important;
+    }
+
+    .dotted-div-tracking{
+        scale: (1) !important;
+    }
+}
+
+@media only screen and (max-device-width:768px) {
+    .text-alignment-center-mob {
+        text-align: center;
+    }
+
+    .top-content-i8 h2 {
+        // font-size: 52px;
+        font-size: 165% !important;
+        line-height: 30px !important;
+        //text-align: center;
+    }
+
+}
+
+@media only screen and (max-device-width:1300px) {
+    .top-content-i8 h2 {
+        font-size: 45px;
+        // font-size: 165% !important;
+        // line-height: 60px !important;
+        //text-align: center;
+    }
+  
+    .sub-hedding-font-size {
+        font-size: 90% !important;
+    }
+    .dotted-div-tracking{
+    scale: (1) !important;
+}
+
+}
+
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    .top-content-i8 h2 {
+        // font-size: 52px;
+        font-size: 120% !important;
+    }
+
+
+    .fonts {
+        font-size: 120%;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .fonts {
+        font-size: 120%;
+    }
+    .top-content-i8 h2 {
+        // font-size: 52px;
+        font-size: 165% !important;
+        line-height: 30px !important;
+        //text-align: center;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .fonts {
+        font-size: 150%;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+    .fonts {
+        font-size: 120%;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    .fonts {
+        font-size: 156%;
+    }
+}
+
+// @media only screen and (max-device-width : 1310px) {
+//     .top-content-i8 h2 {
+//         font-size: 45px !important;
+//     }
+// }
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+    .fonts {
+        font-size: 200%;
+    }
+
+    .top-content-i8 h2 {
+        line-height: 50px !important;
+        font-size: 200% !important;
+    }
+
+    .sub-hedding-font-size {
+        font-size: 90% !important;
+    }
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    .fonts {
+        font-size: 190%;
+    }
+
+}
+
+// larger screens larger than 2000px
+
+@media only screen and (min-device-width : 1900px) and (max-device-width : 3000px) {
+
+    .top-content-i8 h2 {
+        // font-size: 52px;
+        font-size: 430% !important;
+        line-height: 80px !important;
+        // text-align: center;
+    }
+
+    .blog-image-div {
+        height: 18rem;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .sub-hedding-font-size {
+        font-size: 200% !important;
+    }
+
+}
+
+.line-height {
+    line-height: 40px;
+}
+
+
+
+// Buttons
+
+.hover span {
+    color: #0000;
+    font-weight: 600;
+    background:
+        linear-gradient(90deg, #d66637 50%, #d66637 0) var(--_p, 100%)/200% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: .4s;
+}
+
+.hover:hover {
+    --_p: 0%;
+}
+
+.learn-more-btn {
+    padding: 0.7rem;
+    background:
+        linear-gradient(90deg, #f3f3f3 50%, #ffffff 0) var(--_p, 100%)/200% no-repeat;
+    border-radius: 1.1rem;
+    border: 1px solid #d66637;
+    font-weight: 500;
+    transition: .6s;
+}
+
+.learn-more-btn:hover {
+    border: 1px solid #d66637;
+    --_p: 0%;
+}
+
+
+// dottedBorders
+.dotted-div-tracking {
+    transform: rotate(64deg);
+    padding: 0.5rem;
+    border: 3px dashed #fd7e14;
+    border-radius: 1.5rem;
+    scale: (1.1);
+}
+
+
+
+
+// common css
+
+.circular-logo {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: rgb(245, 180, 180);
+    color: white;
+    display: block;
+}
+
+.circuler-img-bg {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #d66637;
+}
+
+
+
+
+// hoverEffect For divs
+
+.mouseHover {
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.mouseHover:hover {
+    transform: translate(3px, 3px);
+    box-shadow: 1px 1px 10px 1px silver;
+}

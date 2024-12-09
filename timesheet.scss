@@ -1,0 +1,943 @@
+@import'./fonts-colors.scss';
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .text-banner-content {
+        font-size: 2rem !important;
+    }
+}
+
+@media(max-width:768px) {
+
+    .main-content-block {
+        padding: 0rem 1rem;
+    }
+
+    .content-block {
+        margin: 1rem;
+    }
+
+    .text-block {
+        font-size: 1rem !important;
+    }
+
+    .text-banner-content {
+        font-size: 1.5rem !important;
+    }
+
+    .main-content-block-emp {
+        padding: 0rem 0rem !important;
+        margin-top: 4rem;
+    }
+
+    // .services-card {
+    //     width: 90% !important;
+    // }
+}
+
+@media screen and (min-width:660px) and (max-width:970px) {
+    .service-items-in-sercice-card {
+        width: 16rem !important;
+    }
+}
+
+.sub-content-p {
+    padding: 0rem 5rem;
+}
+
+.main-content-block-emp {
+    padding: 0rem 2rem;
+}
+
+.main-content-block {
+    padding-top: 10rem;
+}
+
+.orange-text-clr {
+    color: #d66637;
+}
+
+.text-below-hedding {
+    font-size: 1.5rem;
+    font-weight: 700;
+    // word-spacing: 0.7rem;
+}
+
+.btn-clr-white {
+    font-weight: 700;
+    color: white !important;
+    background-color: #d66637;
+    // word-spacing: 0.5rem;
+}
+
+.register-btn {
+    padding: 0.5rem 1rem;
+}
+
+.managenet-details-cards {
+    height: 11rem;
+    background-color: white;
+    margin: 2rem 1rem 2rem 1rem;
+    border-radius: 2rem;
+    // border-left: 10px solid rgb(192, 187, 187);
+    box-shadow: 0px 2px 10px 0px silver;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text-xl {
+    font-size: 2rem;
+    font-weight: 800;
+    word-spacing: 0.8rem;
+}
+
+.card-sub-text-lg {
+    font-size: 1.3rem;
+    font-weight: 700;
+    word-spacing: 0.5rem;
+}
+
+.card-sub-text-m {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.circular-bg-img {
+    height: 15rem;
+    width: 15rem;
+    background-color: rgb(244, 225, 225);
+    border-radius: 50%;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.emp-recuiter-ind-tabs {
+    height: 3.5rem;
+    // background-color: rgb(244, 225, 225);
+    // border: 1px solid #fd7e14;
+    //  border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-block {
+    font-size: 1.6rem;
+    color: gray;
+    font-weight: 500;
+    transition: transform 3s;
+    // border-radius: 1rem 1rem 0rem 0rem;
+    cursor: pointer;
+}
+
+// .text-block:hover {
+//     background-color: #fd7e14;
+//     color: white;
+// }
+
+.active-class {
+    background-color: #fd7e14;
+    color: white;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.orange-bg-white-txt {
+    background-color: #fd7e14;
+    color: white;
+}
+
+.text-highlet-black {
+    font-weight: 800;
+}
+
+.font-weight-500 {
+    font-weight: 550;
+}
+
+.circular-logo {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: rgb(245, 180, 180);
+    color: white;
+    display: block;
+}
+
+.large-text {
+    font-size: 2rem;
+    font-weight: 500;
+    word-spacing: 0.5rem;
+}
+
+// .margin-top-bottom {
+//     margin: 5rem 0rem;
+// }
+
+// .img-1-employ-page {
+//     margin-top: -4rem;
+// }
+
+.round-border-around-txt {
+    border: 2px solid #fd7e14;
+    border-radius: 0.8rem;
+    margin: 1rem 0rem;
+    width: fit-content;
+}
+
+.our-partner-txt {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem 0.8rem;
+}
+
+.video-icon-btn {
+    font-size: 1.3rem;
+}
+
+.video-btn-padding {
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    width: fit-content;
+}
+
+.text-black-weight-600 {
+    font-size: 1.8rem;
+    word-spacing: 0.5rem;
+}
+
+.services-card {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0px 0px 10px 5px silver;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.service-items-in-sercice-card {
+    padding: 0.5rem 1rem;
+    width: 23rem;
+}
+
+.font-weight {
+    font-weight: 900;
+}
+
+.text-clr-gray {
+    color: gray;
+}
+
+.btn-sec-margin-mt-mb {
+    margin: 1.5rem 0rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.sat-lite-btn {
+    padding: 0.3rem 0.5rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    box-shadow: 0px 0px 3px 3px rgb(222, 218, 218);
+    border-radius: 0.5rem;
+}
+
+.text-banner {
+    background-color: #fef0e4;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-banner-content {
+    font-size: 2.7rem;
+    font-weight: 500;
+    word-spacing: 0.4rem;
+}
+
+
+// .triangle-bg {
+//     background: linear-gradient(to bottom left, #f5f5f5 0%, #f5f5f5 50%, #fef0e4 50%, #fef0e4 100%) !important;
+
+// }
+
+.it-solution-img-block {
+    background: linear-gradient(to bottom left, #f5f5f5 0%, #f5f5f5 50%, #fef0e4 50%, #fef0e4 100%) !important;
+    padding: 2rem;
+    border-radius: 0rem 1.5rem 1.5rem 1.5rem;
+}
+
+.border-for-starting-block {
+    border-radius: 1.5rem !important;
+    padding: 2rem;
+}
+
+.back-ground-rotated {
+    background-color: #fef0e4;
+    // transform: rotate(64deg);
+    border-radius: 1.5rem;
+    // scale: (1.22);
+    padding: 1rem;
+}
+
+.dotted-div-tracking {
+    transform: rotate(64deg);
+    padding: 0.5rem;
+    border: 3px dashed #fd7e14;
+    border-radius: 1.5rem;
+    scale: (1.22);
+}
+
+.image-rotation {
+    transform: rotate(305deg);
+}
+
+
+
+@media only screen and (min-width: 580px) and (max-width: 980px) {
+    .card-text-xl {
+        font-size: 1.5rem !important;
+    }
+
+    .card-sub-text-lg {
+        font-size: 1.3rem !important;
+    }
+
+    .card-sub-text-m {
+        font-size: 1rem;
+    }
+}
+
+.ai-profile-image {
+    // scale: (1.1);
+    border-radius: 1.5rem;
+    border: 3px dashed #fd7e14;
+}
+
+@media only screen and (max-width: 768px) {
+    .it-solution-img-block {
+        padding: 1rem !important;
+    }
+
+    .border-for-starting-block {
+        padding: 1rem !important;
+    }
+
+    .desk-top-image {
+        display: none !important;
+    }
+
+    .mobile-image {
+        display: block !important;
+    }
+
+    .text-below-hedding {
+        font-size: 1rem !important;
+    }
+
+    .dotted-div-tracking {
+        scale: (1) !important;
+    }
+
+    .ai-profile-image {
+        scale: (1) !important;
+    }
+}
+
+.desk-top-image {
+    display: block;
+}
+
+.mobile-image {
+    display: none;
+}
+
+
+.subpointbased{
+    font-size: 1.1rem;
+    font-family: "Raleway", sans-serif;
+    font-family: "Nunito Sans", Sans-serif !important;
+    font-weight: 600;
+    color: #566477 !important;
+    
+}
+.subpointbased > i {
+    margin: 0px 4px !important;
+    color: #d66637;
+    font-size: 1.3rem;
+}
+
+.top-content-i8 h2{
+    font-family: "Nunito", Sans-serif;
+    font-size: 45px;
+    font-weight: 700 !important;
+    }
+.imagedashboard{
+
+}
+.it-solution-img-block{
+    
+    background:white  !important ;
+}
+    .imagedashboard
+.learn-more-btn {
+    padding: 0.7rem;
+    background-color: #d66637;
+    border-radius: 1.1rem;
+    color: white !important;
+    font-weight: 500;
+}
+
+.buttonactive {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 10%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+  }
+  
+  .buttonactive:hover {
+    letter-spacing: 3px;
+    background-color: #fd7e14;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #fd7e14 0px 7px 29px 0px;
+  }
+  
+
+  .buttonactive11{
+    background-color: #fd7e14;
+  }
+  .buttonactive:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+
+  .text-banner-content {
+    font-size: 1.4rem;
+    font-weight: 500;
+    word-spacing: 0.2rem;
+    text-align: center;
+    }
+  
+
+    .top-content-i8 h2{
+        line-height: 63px;
+    }
+
+    .text-below-hedding {
+        font-size: 1.3rem;
+        font-weight: 500;
+        }
+
+
+      
+      
+        .resume_builder_text_heading_text {
+            font-size: 48px;
+            width: auto;
+            line-height: 60px !important;
+            font-family:"Lexend Deca",sans-serif;
+            font-weight: 600;
+            color: rgb(33, 51, 67);
+            text-align: left;
+            height: 140px;
+            letter-spacing: normal;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .Use_AI_Resume_Builder_to_Createa{
+
+            
+            color: rgb(33, 51, 67);
+display: block;
+font-family: "Lexend Deca", sans-serif;
+font-size: 36px;
+font-weight: 300;
+height: 422px;
+letter-spacing: normal;
+line-height: 28px;
+// width: 1440px;
+-webkit-font-smoothing: antialiased;
+
+
+font-size: 45px;
+line-height: 60px !important;
+font-family: "Lexend Deca", sans-serif;
+font-weight: 600;
+color: rgb(33, 51, 67);
+text-align: center;
+height: 140px;
+letter-spacing: normal;
+-webkit-font-smoothing: antialiased;
+
+        }
+        .resume_builder_text_subheading {
+            color: rgb(33, 51, 67);
+            display: inline;
+            font-family: "Lexend Deca", sans-serif;
+            font-size: 22px;
+            font-weight: 350;
+            height: auto;
+            letter-spacing: normal;
+            line-height: 38px;
+            width: 200px !important; /* Apply the width as 200px */
+            text-align: left;
+            -webkit-font-smoothing: antialiased;
+        }
+
+
+        .usecase-leads-hero{
+
+background-clip: border-box;
+background-color:  rgb(255, 92, 53);
+background-image: none;
+background-origin: padding-box;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-size: auto;
+border-bottom-color: rgba(0, 0, 0, 0);
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-image-outset: 0;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgba(0, 0, 0, 0);
+border-left-style: solid;
+border-left-width: 2px;
+border-right-color: rgba(0, 0, 0, 0);
+border-right-style: solid;
+border-right-width: 2px;
+border-top-color: rgba(0, 0, 0, 0);
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+border-top-style: solid;
+border-top-width: 2px;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: inline-block;
+font-family: "Lexend Deca", sans-serif;
+font-size: 20px;
+font-weight: 500;
+height: 68px;
+letter-spacing: normal;
+line-height: 32px;
+padding-bottom: 16px;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 16px;
+text-align: center;
+text-decoration: none;
+color: white !important;
+text-decoration-line: none;
+transition-behavior: normal, normal;
+transition-delay: 0s, 0s;
+transition-duration: 0.15s, 0.15s;
+transition-property: background-color, color;
+transition-timing-function: linear, linear;
+width:auto;	
+-webkit-font-smoothing: antialiased;
+
+        }
+
+.enter_text_filed{
+    color: rgb(33, 51, 67);
+display: inline;
+font-family: "Lexend Deca", sans-serif;
+font-size: 21px;
+font-weight: 350;
+height: auto;
+letter-spacing: normal;
+line-height: 2.6rem;
+text-align: center;
+-webkit-font-smoothing: antialiased;
+}
+
+
+.Choose_your_Resume11{
+    width: 550px !important;
+}
+.Choose_your_Resume{
+    line-height: 60px !important;
+font-family: "Lexend Deca", sans-serif;
+font-weight: 600;
+color: rgb(33, 51, 67);
+text-align: left;
+height: auto;
+letter-spacing: normal;
+-webkit-font-smoothing: antialiased;
+    width: 400px;
+}
+.select_a_design_that{
+    line-height: 39px;
+}
+
+.OptimizeYour{
+    width: auto;
+}
+.bluecol-light{
+
+color: rgb(33, 51, 67) !important;
+background-color: white;
+border:  2px solid     rgb(33, 51, 67);
+}
+
+
+
+.card1_{
+    background-attachment: scroll;
+background-clip: border-box;
+background-color: rgb(255, 255, 255);
+background-image: none;
+background-origin: padding-box;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-size: auto;
+border-bottom-color: rgba(0, 0, 0, 0);
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+border-bottom-style: solid;
+border-bottom-width: 0px;
+border-image-outset: 0;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgba(0, 0, 0, 0);
+border-left-style: solid;
+border-left-width: 0px;
+border-right-color: rgba(0, 0, 0, 0);
+border-right-style: solid;
+border-right-width: 0px;
+border-top-color: rgba(0, 0, 0, 0);
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+border-top-style: solid;
+border-top-width: 0px;
+box-sizing: border-box;
+color: rgb(33, 51, 67);
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+font-family: "Lexend Deca", sans-serif;
+font-size: 16px;
+font-weight: 300;
+// height: 220px;
+letter-spacing: normal;
+line-height: 28px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+padding-bottom: 16px;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 16px;
+position: relative;
+text-align: left;
+width: 300px;
+-webkit-font-smoothing: antialiased;
+margin: 10px;
+}
+.box_conatiner{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.tailored_{
+    // ;
+color: rgb(33, 51, 67);
+display: block;
+font-family: "Lexend Deca", sans-serif;
+font-size: 24px;
+font-weight: 600;
+height: 37px;
+letter-spacing: normal;
+line-height: 37.333336px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+margin-block-end: 0px;
+margin-block-start: 0px;
+margin-bottom: 0px;
+margin-inline-end: 0px;
+margin-inline-start: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+text-align: center;
+width: auto;
+-webkit-font-smoothing: antialiased;
+}
+
+
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+  
+  
+  
+    .resume_builder_text_heading_text {
+        font-size: 24px; /* Adjust font size for smaller screens */
+        width: 100%; /* Make the width responsive */
+        line-height: 36px; /* Adjust line height for better readability */
+        height: auto; /* Allow height to adjust automatically */
+        text-align: center; /* Center the text for better alignment */
+    }
+    .Choose_your_Resume {
+        line-height: 40px; /* Adjust line-height for better readability on small screens */
+        font-size: 1.5rem; /* Adjust font size to fit small screens */
+        width: 100%; /* Make the width responsive */
+        height: auto; /* Allow height to adjust automatically */
+        text-align: center; /* Center the text for better alignment on small screens */
+    }
+
+
+    .usecase-leads-hero {
+        font-size: 16px; /* Smaller font size */
+        height: 50px; /* Adjust height */
+        padding-top: 8px; /* Adjust padding */
+        padding-bottom: 12px; /* Adjust padding */
+        padding-left: 20px; /* Adjust padding */
+        padding-right: 20px; /* Adjust padding */
+        border-bottom-width: 1px; /* Adjust border width */
+        border-left-width: 1px; /* Adjust border width */
+        border-right-width: 1px; /* Adjust border width */
+        border-top-width: 1px; /* Adjust border width */
+        text-align: center;
+    }
+    .Choose_your_Resume11 {
+        width: auto !important;
+        }
+  
+
+    .resume_builder_text_subheading {
+        font-size: 16px; /* Adjust font size for smaller screens */
+        width: 100% !important; /* Make the width responsive */
+        line-height: 24px; /* Adjust line height for better readability */
+        text-align: center; /* Center the text for better alignment */
+    }
+
+    .marigintext > div{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+    }
+
+
+    .Choose_your_Resume {
+        line-height: 40px !important;
+     
+        }
+        .tailored_{
+            width: 100%;
+        }
+        .Use_AI_Resume_Builder_to_Createa{font-size: 24px;
+            height: auto;
+        }.enter_text_filed{font-size: 16px;}.card_ai{      font-size: 16px !important;}
+
+        .imagebackgroundrow {
+            display: flex;
+            flex-direction: column !important;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            }
+            .card_ai{
+                margin-top: 2rem  !important;
+            }
+}
+
+
+
+
+
+.imagebackground{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: rgb(255, 92, 53);
+    color: white;
+       display: flex;
+       align-items: center;
+       justify-content: center;font-size: 20px;
+}
+
+.imagebackgroundrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .resume_builder_text_heading_text {
+        font-size: 28px; /* Adjust font size for medium screens */
+        line-height: 42px; /* Adjust line height for better readability */
+        text-align: left; /* Align text to the left */
+        margin-bottom: 20px; /* Add margin to separate text and image */
+    }
+
+    .resume_builder_text_subheading {
+        font-size: 18px; /* Adjust font size for medium screens */
+        line-height: 28px; /* Adjust line height */
+        text-align: left; /* Align text to the left */
+        margin-bottom: 20px; /* Add margin for spacing */
+    }
+
+    .usecase-leads-hero {
+        font-size: 18px; /* Slightly larger font size */
+        padding: 10px 24px; /* Adjust padding for better spacing */
+        height: auto; /* Allow height to adjust automatically */
+        text-align: center; /* Center the button text */
+    }
+
+    .img-fluid {
+        max-width: 90%; /* Adjust image size to fit better on medium screens */
+        height: auto; /* Keep aspect ratio */
+        display: block;
+        margin-left: auto;
+        margin-right: auto; /* Center the image */
+    }
+
+    .row.align-items-center {
+        display: flex;
+        align-items: center; /* Ensure the image and text are vertically aligned */
+        justify-content: space-between; /* Space out the image and text */
+        flex-wrap: wrap; /* Allow wrapping for smaller widths */
+    }
+
+    .col-md-5, .col-md-7 {
+        flex: 1 1 45%; /* Adjust the width of columns */
+        margin-bottom: 20px; /* Add space between rows */
+    }
+
+    .col-md-5 {
+        text-align: left; /* Align the text section to the left */
+    }
+
+    .col-md-7 {
+        text-align: center; /* Center the image section */
+    }
+
+    .resume_builder_text_heading_text {
+        font-size: 45px;
+        line-height: 60px !important;
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 600;
+        color: rgb(33, 51, 67);
+      
+        height: 140px;
+        letter-spacing: normal;
+        -webkit-font-smoothing: antialiased;
+        }
+        .Choose_your_Resume{
+            line-height: 60px !important;
+            color: rgb(33, 51, 67);
+            height: auto;
+            font-size: 2rem;
+            text-align: center;
+       
+            }
+            .Choose_your_Resume{
+                width: auto;
+            }
+            .Choose_your_Resume11{
+                width: auto !important;
+            }
+            .imagebackgroundrow {
+                display: flex;
+                flex-direction: column !important;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                }
+                .card_ai{
+                    margin-top: 2rem  !important;
+                }
+
+}
+
+
+@media (min-width: 760px) and (max-width: 1024px) {
+    .card1_ {
+        flex: 0 0 100%; /* Make each card take up 100% of the width */
+        max-width: 100%; /* Ensure no card exceeds 100% width */
+        margin-bottom: 15px; /* Add some space between the cards */
+    }
+
+    .col-12.d-flex.flex-wrap.justify-content-between {
+        flex-direction: column; /* Arrange cards in a column */
+        align-items: center; /* Center the cards horizontally */
+    }
+    .resume_builder_text_heading_text{
+        font-size: 2rem;
+    }
+    .Use_AI_Resume_Builder_to_Createa{
+        font-size: 2rem;
+    }
+}
+
+
+/* Media Query for screens between 576px and 767.98px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .flex-column-reverse {
+        display: flex;
+        flex-direction: column-reverse; /* Reverses the order: image on top, text below */
+    }
+}
+
+
+
+
+
+.card_ai{
+    margin-top: 0.8rem;
+    text-align: center  !important;
+    line-height: 2.2rem;
+    font-size: 21px;
+    font-weight: 350;
+}
+
+
+
+
+
+/* Ensure image is on top of text for small screens */
+@media (max-width: 767.98px) {
+    .flex-column-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+/* Ensure image and text are side-by-side for medium screens and up */
+@media (min-width: 768px) {
+    .flex-md-row {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
